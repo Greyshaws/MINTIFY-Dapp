@@ -1,0 +1,237 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: rgb(1, 10, 19);
+  color: #fff;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  text-align: center;
+  padding: 5%;
+}
+
+.App-header {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  position: relative;
+  bottom: 230px;
+  right: 30px;
+  text-align: left;
+}
+
+/*Profile*/
+
+.profile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 140px;
+  right: 320px;
+}
+
+.profile-info {
+  font-family: sans-serif;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border: 0px;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+.profile-name {
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.profile-followers {
+  font-size: 15px;
+}
+
+/* Gallery */
+
+.track {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+  bottom: 90px;
+}
+
+.track-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  object-fit: cover;
+  position: absolute;
+}
+
+.track-text {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  width: 221px;
+  margin-left: -0.5px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.track-play {
+  position: absolute;
+  width: 220px;
+  height: 220px;
+}
+
+.cta-button {
+  height: 35px;
+  border: 0.5px solid white;
+  width: 150px;
+  position: relative;
+  left: 420px;
+  bottom: 340px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.connect-wallet-button {
+  background-color: rgb(1, 10, 19);
+}
+
+.form {
+  width: 300px;
+  position: relative;
+  bottom: 230px;
+  left: 420px;
+}
+
+.mint {
+  position: relative;
+  bottom: 40px;
+}
+
+.search {
+  background-color: rgb(83, 119, 155);
+  border: 1px solid rgb(71, 100, 129);
+  border-radius: 0px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.input1{
+  border: 3px solid rgb(220, 225, 230);
+  border-radius: 5px;
+  height: 45px;
+  width: 200px;
+}
+
+.input2{
+  border: 3px solid rgb(220, 225, 230);
+  border-radius: 5px;
+  height: 45px;
+  width: 200px;
+}
+
+.upload{
+  position: relative;
+  top: 30px;
+  font-size: 20px;
+}
+
+.accept{
+  position: relative;
+  top: 50px;
+}
+
+.image{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mintb{
+  position: relative;
+  top: 100px;
+  right: 150px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(83, 119, 155);
+  color: white;
+}
+
+.wrapper2{
+  position: relative;
+  top: 140px;
+}
+
+.title2{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.use{
+  font-size: 18px;
+}
+
+.view-box{
+  border: 3px solid rgb(220, 225, 230);
+  border-radius: 5px;
+  height: 45px;
+  width: 200px;
+}
+
+.get{
+  position: relative;
+  top: 13px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(83, 119, 155);
+  color: white;
+}
+
+.name{
+  position: relative;
+  top: 10px;
+}
+
+.info1{
+  position: relative;
+  bottom: 40px;
+}
